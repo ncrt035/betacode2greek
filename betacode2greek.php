@@ -47,8 +47,8 @@ function betacode2greek(string $phrase): string {
     //replace "s[$\s]" with "ς"
      $result = preg_replace('|s[$\s]|', 'v ', $phrase);
 
-     $result = str_replace($betaVow, $grVow, $result);
-     $result = str_replace($betaCons, $grCons, $result);
+     $result = str_replace($BCVow, $GrVow, $result);
+     $result = str_replace($BCCons, $GrCons, $result);
 
      return $result;
 
