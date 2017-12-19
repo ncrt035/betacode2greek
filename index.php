@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <?php
   require_once "betacode2greek.php";
 ?>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -15,7 +15,7 @@
     <input type="submit" value="encode">
   </form>
 
-text(greek): 
+text(greek):
 <?php
   print betacode2greek($_POST['phrase']);
 ?>
